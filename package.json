@@ -1,0 +1,17 @@
+{
+  "name": "library-desk-agent",
+  "version": "1.0.0",
+  "description": "AI Agent for Library Desk - MenaDevs Assessment",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "setup-db": "node db/setup.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "better-sqlite3": "^9.4.3",
+    "dotenv": "^16.4.1",
+    "uuid": "^9.0.0"
+  }
+}
